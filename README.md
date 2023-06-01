@@ -51,7 +51,10 @@
     > eventlistner- "mouseenter" : it triggered when mouse is hovered over
 
     > We can add a class and toggle it to an html element using :
-      container.classList.toggle('reverse') [here 'reverse' is a class, it add or removes the class in the container class]
+
+      container.classList.toggle('reverse') 
+      
+      [here 'reverse' is a class, it add or removes the class in the container class]
 
 # HTML
      >   Using button tag is better than input type of submit 
@@ -62,6 +65,10 @@
      We can achieve this by putting "disable" attribute in the element
 
      Ex: 	<button class="quantityBtn" id="decrement" disabled>-</button>
+
+     > For Accessibility Issues, we can use(when we don't want to use label above input field):
+
+        aria-label="Full name" 
 
   
 
